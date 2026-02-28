@@ -7,7 +7,7 @@ import org.example.events.InventoryReservationFailedEvent;
 import org.example.events.InventoryReservedEvent;
 import org.example.events.PaymentFailedEvent;
 import org.example.events.PaymentProcessedEvent;
-import org.example.topics.KafkaTopics;
+import com.sheemab.order_service.topics.KafkaTopics;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.annotation.KafkaListener;

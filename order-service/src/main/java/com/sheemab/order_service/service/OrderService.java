@@ -8,7 +8,7 @@ import com.sheemab.order_service.entity.enums.OrderStatus;
 import com.sheemab.order_service.repository.OrderRepository;
 import lombok.RequiredArgsConstructor;
 import org.example.events.OrderCreatedEvent;
-import org.example.topics.KafkaTopics;
+import com.sheemab.order_service.topics.KafkaTopics;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.core.KafkaTemplate;

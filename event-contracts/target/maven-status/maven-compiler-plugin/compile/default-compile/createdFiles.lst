@@ -1,7 +1,6 @@
 org\example\events\OrderCreatedEvent$OrderCreatedEventBuilder.class
 org\example\events\PaymentFailedEvent.class
 org\example\events\InventoryReservationFailedEvent$InventoryReservationFailedEventBuilder.class
-org\example\topics\KafkaTopics.class
 org\example\events\OrderCreatedEvent.class
 org\example\events\PaymentProcessedEvent$PaymentProcessedEventBuilder.class
 org\example\events\PaymentProcessedEvent.class
